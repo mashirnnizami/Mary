@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>B.I.R.B.A.L</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <meta charset="UTF-8">
+     <link rel="stylesheet" href="data.css">
+          <link rel="stylesheet" href="pic.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    <meta charset="utf-8">
+  
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+ <body>
+   <style>
+
+h1 {
+    font-family: 'MedievalSharp';font-size: 75px;
+}
+     </style>
+
+ 
+<style> 
+
+p5 {
+  font-size: 200%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+
+    text-decoration: underline;
+  }
+h2 {
+  font-size: 1%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+
+    text-decoration: underline;
+  }
+
+
+</style>
+
+
+<section>
+  
+
+<div class="card card-1">
+
+<div class="wrapper">
+    <div class="title">
+  
+    </div>
+    
+    <div class="form">
+  <form action="/get"> 
+          
+        <div class="inputfield">
+          <label>Surname</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Surname</option>
+              <option value="Mr">Mr</option>
+              <option value="Mrs">Mrs</option>
+              <option value="Dr">Dr</option>
+              <option value="Md">Md</option>
+              <option value="Shri">Shri</option>
+              
+            </select>
+          </div>
+       </div> 
+       <div class="inputfield">
+          <label>Full Name</label>
+          <input type="text" class="input" name="input2" placeholder="Name">
+       </div> 
+       
+      <div class="inputfield">
+          <label>Blood Group</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Group</option>
+              <option value="A">A</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+              <option value="0+">0+</option>
+              <option value="0-">0-</option>
+              
+            </select>
+          </div>
+       </div> 
+       <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+                  
+            </select>
+          </div>
+       </div>
+      
+      <div class="inputfield">
+          <label>Age Group</label>
+          <input type="text" class="input" name="input5" placeholder="Age">
+       </div> 
+       <div class="inputfield">
+          <label>Religion</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Religion</option>
+              <option value="Islam">Islam</option>
+              <option value="Hindus">Hindus</option>
+              <option value="Christian">Christian</option>
+             <option value="Jews">Jews</option>     
+                 <option value="Buddhism">Buddhism</option> 
+                   <option value="Sikh">Sikh</option>    
+                    <option value="Others">Others</option> 
+            </select>
+          </div>
+       </div>
+     <div class="inputfield">
+          <label>Country</label>
+          <input type="text" class="input" name="input7" placeholder="country">
+       </div> 
+    
+     <input type="submit" value="SUBMIT" class="btn btn-warning " style="width:100%">
+    </div>
+    </div>
+     </form>
+</div>
+
+</section>
+
+
+
+
+<footer>
+  <script src="pic.js"></script>
+  <script>
+
+  let arrow = document.querySelectorAll(".arrow");
+  for (var i = 0; i < arrow.length; i++) {
+    arrow[i].addEventListener("click", (e)=>{
+   let arrowParent = e.target.parentElement.parentElement;
+   arrowParent.classList.toggle("showMenu");
+    });
+  }
+
+  let sidebar = document.querySelector(".sidebar");
+  let sidebarBtn = document.querySelector(".bx-menu");
+  console.log(sidebarBtn);
+  sidebarBtn.addEventListener("click", ()=>{
+    sidebar.classList.toggle("close");
+  });
+  </script>
+  
+
+
+
+<script>(function(w, d) { w.CollectId = "60d3f223bd10e41c4c3603b1"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+
+</footer>
+
+  
+</html>
+    

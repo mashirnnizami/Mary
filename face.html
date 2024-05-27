@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+ 
+  <link href='face.css' rel='stylesheet' />
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+
+<link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    <meta charset="utf-8">
+
+ 
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+      <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <title>Face Recognition</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        canvas{
+            position: absolute;
+        }
+        
+        p {
+  font-size: 170%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+ 
+  opacity:100;
+}
+p2 {
+  font-size: 80%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+ 
+  opacity:100;
+}
+
+p5 {
+  font-size: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+
+  opacity:100;
+}
+p1 {
+  font-size: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+ 
+  opacity:100;
+}
+p5 {
+  font-size: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+ 
+  opacity:100;
+}
+p6 {
+  font-size: 10%;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+h2 {
+   font-size: 150%;
+ color: black;
+ font-family: "Lucida Console", "Courier New", monospace;
+}
+
+ div.a {
+  text-align: center;
+} 
+div.ex1 {
+ border-style: solid;
+  border-color: aqua;
+}
+div.col-15
+{
+  font-size: 120%;
+color: black;
+ font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+  
+           <div class="row">
+                     <p>Face Detection</p>
+
+
+                    <video id="videoInput" width="750" height="500" muted controls>
+
+            
+            </div>
+    
+  
+        
+                </div>
+          
+          
+      </div>
+   
+  </div>
+  
+   
+</div>
+    
+
+    <script defer async src="./js/face-api.min.js"></script>
+    <script defer async src="./js/script.js"></script>
+</body>
+</html>
