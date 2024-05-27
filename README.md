@@ -23,14 +23,4 @@ Just comment out line number 18 and 64 inside public/js/script.js and uncomment 
 <b>For Video Source:</b>
 Just uncomment line number 18 and 64 inside public/js/script.js and comment out line 12 to 16 and 65.
 
-<b>Note:</b>
-For best performance, if you have a dedicated graphic card on your system enable that to be used by your browser. By defualt browser uses the internal graphic of the system which might not work best for this app.
 
-
-
-Ping me at https://www.linkedin.com/in/prashant-kumar-2124b3b4/
-if any of you have any questions, suggestions, feedback or just want to say Hi:)
-
-Instagram: @prashant_cn
-
-Buy Me A Coffee: https://www.buymeacoffee.com/prashantcn
