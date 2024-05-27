@@ -47,7 +47,7 @@ async function recognizeFaces() {
 }
 
 function loadLabeledImages() {
-  const labels = ['Tabish', 'Mashir'] // for WebCam
+  const labels = ['Tabish', 'Mashir','Zaiba','Shahzad'] // for WebCam
   return Promise.all(
     labels.map(async (label) => {
       const descriptions = []
